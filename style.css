@@ -1,0 +1,204 @@
+html {
+  background-color: #2C2B2C;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#nav {
+  background-color: #ffffff;
+  color: #2C2B2C;
+  opacity: 0.5;
+  overflow: hidden;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  style="z-index:1;
+
+}
+
+a {
+    color: #EF4237;
+    text-decoration:none;
+    position:relative;
+}
+a::after {
+    content:'';
+    display:inline-block;
+    width:0;
+    height:3px;
+    background:#EF4237;
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    transition:0.2s ease-in;
+}
+a:hover::after {
+    width:100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+
+}
+
+.wrap {
+  width: 30%;
+  top: 50%;
+  left: 50%;
+}
+.search {
+flex: wrap;
+justify-content: flex-end;
+
+}
+.button-description {
+  margin-top: 30px;
+}
+.bigbranding {
+  font-size: 800%;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 180px;
+  z-index:-30px;
+
+}
+.hook-2 {
+  font-size: 450%;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+  z-index:-30px;
+}
+
+.smallbranding{
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+}
+}
+.description {
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+}
+.title-header2 {
+  font-size: 200%;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+.paragraph-2 {
+  font-size: 115%;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+}
+.remember {
+  font-style: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50
+}
+#button {
+  font-size: 50;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-container {
+  grid-area: header;
+}
+
+}
+.child-ab {
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 100px;
+  img {
+    display: inline-block;
+    height: 50%auto;
+    width: 50%auto;
+    border: 2px solid black
+  }
+
+}
+.background-#EF4237{
+  background-color: #EF4136;
+}
+
+.bigcard {
+  position: static;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #EF4237;
+}
+.aboutcard {
+  position: static;
+  padding-top: 40px;
+  padding-bottom: 160px;
+  padding-left: 80px;
+  padding-right: 100px;
+  background-color: #EF4237;
+}
+.child-b {
+  grid-area: main;
+  background-color: #ffffff;
+  ;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header {
+  padding-top: 100px;
+}
+.child-c {
+  grid-area: sidebar;
+  background-color: #ffffff;
+  ;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.child-cd {
+  grid-area: blog;
+  background-color: #ffffff;
+  ;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.child-d {
+  grid-area: footer;
+  background-color: #ffffff;
+  ;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.quotes {display: none;}
+
+.quotez {display: none;}
+
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#page-footer {
+background-color: #2C2B2C;
+}
